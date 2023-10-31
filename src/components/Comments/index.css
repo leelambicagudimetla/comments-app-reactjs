@@ -1,0 +1,74 @@
+/* Write your CSS here */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.comment-app-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: space-between;
+}
+.name-of-yours {
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.comment-input {
+  height: 30px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.img-class {
+  max-height: 280px;
+}
+.button-comment {
+  background-color: #0284c7;
+  border-radius: 10px;
+  border-width: 0px;
+  width: 120px;
+  color: #dee0e3;
+  padding: 5px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.separator {
+  margin: 0;
+  border: 1px solid #cbd5e1;
+}
+.zero-comment-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: flex-start;
+  text-align: left;
+  width: 55vw;
+}
+.zero {
+  text-align: center;
+  width: 20px;
+  border-radius: 5px;
+  background-color: #0284c7;
+  color: #dee0e3;
+}
+.comm {
+  text-align: right;
+  padding-left: 5px;
+}
+.unoedrer {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  justify-content: flex-start;
+}
